@@ -3,7 +3,7 @@ A lightweight and very simple Parallax Effect plugin made with Jquery
 
 ## Usage
 ```
-$('.paralasic').css('background-position', 'center top -' + scrollTop * 1.8 + 'px'); /* 1.7 ´o valor padrão. Quanto menor o número, menor o efeito */
+$('.paralasic').css('background-position', 'center top -' + scrollTop * 1.8 + 'px');
 ```
 
 ## CSS
