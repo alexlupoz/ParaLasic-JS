@@ -31,3 +31,6 @@ Just add the class "paralasic" on the HTML element
   <h1>I'm ParaLasic</h1>
 </div>
 ```
+
+## License
+This plugin is free under MIT license for personal or commercial use.
