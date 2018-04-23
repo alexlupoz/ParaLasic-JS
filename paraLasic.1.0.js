@@ -16,7 +16,8 @@ jQuery(window).bind('scroll', function () {
 	/* PARALLAX EFFECT ON HEADER */
 	$(window).scroll(function() {
 		var scrollTop = $(window).scrollTop();
-		$('.paralasic').css('background-position', 'center top -' + scrollTop * 1.8 + 'px'); /* 1.8 - default value. Increase less to go stopping the effect */
+		var paralasicValue = $('.paralasic').attr('data-paralasic');
+		$('.paralasic').css('background-position', 'center top -' + scrollTop * paralasicValue + 'px'); /* 1.8 - default value. Increase less to go stopping the effect */
 	});
 			
 });
