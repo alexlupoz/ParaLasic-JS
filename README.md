@@ -28,7 +28,7 @@ $('.paralasic').css('background-position', 'center top -' + scrollTop * paralasi
 
 Just add the class "paralasic" on the HTML element
 ```
-<div id="myParallax" class="paralasic">
+<div id="myParallax" class="paralasic" data-paralasic="0.5">
   <h1>I'm ParaLasic</h1>
 </div>
 ```
